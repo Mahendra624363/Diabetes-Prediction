@@ -1,4 +1,4 @@
-# 🩺 Diabetes Prediction using Ensemble Learning and LIME
+# 🩺 Diabetes Prediction using Ensemble Learning and Explainable AI ( Lime )
 
 This project predicts whether a patient has diabetes using the **Pima Indian Diabetes Dataset**. It involves preprocessing, model tuning, stacking ensemble learning with a meta-learner, and instance-level explanation using **LIME**.
 
