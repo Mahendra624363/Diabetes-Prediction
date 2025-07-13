@@ -20,7 +20,7 @@ This project predicts whether a patient has diabetes using the **Pima Indian Dia
 | 🧹 Preprocessing | Handled missing values with `KNNImputer`, removed outliers using IQR |
 | 📈 EDA | Correlation heatmap, class distribution, boxplots |
 | 🧪 Train-Test Split | 80/20 split using `train_test_split` with stratification |
-| 🔍 Model Tuning | Applied `GridSearchCV` on:<br>• RandomForestClassifier<br>• ExtraTreesClassifier<br>• XGBClassifier |
+| 🔍 Model Tuning | Applied `GridSearchCV` on:<br>• RandomForestClassifier<br>• ExtraTreesClassifier<br>• Logistic Regression|
 | 🧠 Meta Learner | Combined best models using `StackingClassifier` with `LogisticRegression` as final estimator |
 | 📊 Evaluation | Evaluated with accuracy, confusion matrix, classification report |
 | 💡 Explainability | Used `LIME` to explain individual predictions |
@@ -35,5 +35,4 @@ numpy
 matplotlib
 seaborn
 scikit-learn
-xgboost
 lime
